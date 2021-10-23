@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 
@@ -32,4 +33,6 @@ body {
 .cart{
   display: flex;
   flex-direction: column;
+  padding-left: 2rem;
+  margin-top: 2rem;
 }

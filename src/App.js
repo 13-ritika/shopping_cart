@@ -9,24 +9,27 @@ class App extends React.Component {
     this.state = {
       products: [
         {
-          price: 99,
-          title: 'Watch',
+          price: 413000.00,
+          title: 'DIOR ',
+          subTitle: 'Trotter Saddle bag',
           qty: 1,
-          img: 'https://images.unsplash.com/photo-1524805444758-089113d48a6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+          img: 'https://i.pinimg.com/236x/19/18/88/19188817a45abc63ee327a089209c20b.jpg',
           id: 1
         },
         {
-          price: 999,
-          title: 'Mobile Phone',
+          price: 1999.00,
+          title: 'Chanel',
+          subTitle: 'Coco Mademoiselle ',
           qty: 10,
-          img: 'https://images.unsplash.com/photo-1520923642038-b4259acecbd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1306&q=80',
+          img: 'https://i.pinimg.com/564x/2a/a4/7f/2aa47fb6a3670ad562021d87311320da.jpg',
           id: 2
         },
         {
-          price: 999,
-          title: 'Laptop',
+          price: 317000.00,
+          title: 'Saint Laurent ',
+          subTitle: 'Lou Lou quilted shoulder bag',
           qty: 4,
-          img: 'https://images.unsplash.com/photo-1504707748692-419802cf939d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1330&q=80',
+          img: 'https://i.pinimg.com/236x/56/6d/46/566d468d848d02eaa539476975beb3c3.jpg',
           id: 3
         }
       ]
@@ -104,7 +107,7 @@ class App extends React.Component {
           onDecreaseQuantity={this.handleDecreaseQuantity}
           onDeleteProduct={this.handleDeleteProduct}
         />
-        <div style={ {padding: 10, fontSize: 20} }>TOTAL: {this.getCartTotal()} </div>
+        <div style={ {padding: 10, fontSize: 20, fontWeight:600, paddingLeft: 40, fontFamily:"initial"} }>TOTAL: {'Rs '+this.getCartTotal()} </div>
       </div>
     );
   }

@@ -14,11 +14,13 @@ const Navbar = (props) => {
 const styles = {
   cartIcon: {
     height: 32,
-    marginRight: 20
+    marginRight: 20,
+    background: 'white',
+    borderRadius: '20%',
   },
   nav: {
     height: 70,
-    background: '#4267b2',
+    background: 'rgb(30,30,30)',
     display: 'flex',
     justifyContent: 'flex-end',
     alignItems: 'center'
